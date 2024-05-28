@@ -1,9 +1,3 @@
----
-title: "data_preprocess_nodiet_reg_basic"
-author: "yuntian"
-date: '2022-05-17'
-output: html_document
----
 
 ## Package loading
 ```{r}
@@ -189,8 +183,7 @@ all_variables <- c("age","gender","race_ethn","educ","marital_status","INDFMPIR"
 
 selected_variables <- c("gender","race_ethn","educ","INDFMPIR","marital_status","family_income","health_insurance",
                    "employment_status","smoking_status","htn_history","age","CVDESVO2",
-                   "ALT","AST","BUN","GLU","LDH","CHOL","TOTPRO","POTAS","SODI","albuminuria",
-                   "CHL","HBA1C","CREATININE","BILIRUBIN","CALCIUM","BICARBONATE","SY_mean","DI_mean","BMXBMI",
+                   "SY_mean","DI_mean","BMXBMI",
                    "BMXWAIST","BPXPLS","BMXWT","BMXHT","alcohol_intake","physical_activity","WT_DIFF_KG",
                    "lwlstyr","exerc2lwlastyr","TWMT_log","walk_bike")
 
