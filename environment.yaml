@@ -1,0 +1,15 @@
+name: nhanes_crf_model
+channels:
+ - conda-forge
+ - defaults
+dependencies:
+  - python=3.11
+  - lightgbm=4.1.0
+  - numpy=1.25.2
+  - pandas=2.0.3
+  - scikit-learn=1.2.2
+  - matplotlib=3.7.1
+  - seaborn=0.13.1
+  - scipy=1.11.4
+  - joblib=1.4.2
+  - pip=23.1.2
